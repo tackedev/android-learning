@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">coffee-shop</string>
+
+    <string name="logo_description">Logo</string>
+    <string name="txt_email_hint">email</string>
+    <string name="txt_password_hint">password</string>
+    <string name="btn_login_name">Login</string>
+    <string name="tv_forgot_password_value">Forgot password?</string>
+    <string name="tv_copyright_value">© Copyright to tackedev</string>
+</resources>
