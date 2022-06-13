@@ -1,6 +1,8 @@
 package com.tackedev.coffee_shop;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -13,6 +15,7 @@ public class CoffeeDetailActivity extends AppCompatActivity {
 
     private ImageView imgProduct;
     private TextView tvProductName;
+    private TextView tvContactPhone;
     private TextView tvProductDescription;
 
     @Override
@@ -22,9 +25,11 @@ public class CoffeeDetailActivity extends AppCompatActivity {
 
         imgProduct = findViewById(R.id.imgProduct);
         tvProductName = findViewById(R.id.tvProductName);
+        tvContactPhone = findViewById(R.id.tvContactPhone);
         tvProductDescription = findViewById(R.id.tvProductDescription);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onStart() {
         super.onStart();
@@ -37,7 +42,16 @@ public class CoffeeDetailActivity extends AppCompatActivity {
 
             imgProduct.setImageResource(imgProductId);
             tvProductName.setText(productName);
+            String phoneNumber = "+79532338";
+            tvContactPhone.setText("Phone number: " + phoneNumber);
             tvProductDescription.setText(productDescription);
+
+            tvContactPhone.setOnClickListener(v -> {
+                Intent callIntent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phoneNumber, null));
+                startActivity(callIntent);
+            });
         }
+
+
     }
 }
