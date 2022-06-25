@@ -1,4 +1,4 @@
-package com.tackedev.coffee_shop;
+package com.tackedev.coffee_shop.activitity.product;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.tackedev.coffee_shop.R;
 
 public class CoffeeDetailActivity extends AppCompatActivity {
     public static final String PRODUCT_IMAGE_KEY = "PRODUCT_IMAGE_KEY";

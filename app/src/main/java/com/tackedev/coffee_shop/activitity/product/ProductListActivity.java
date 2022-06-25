@@ -1,4 +1,4 @@
-package com.tackedev.coffee_shop;
+package com.tackedev.coffee_shop.activitity.product;
 
 import android.annotation.SuppressLint;
 import android.support.annotation.NonNull;
@@ -9,6 +9,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import com.tackedev.coffee_shop.R;
 
 import java.util.List;
 
