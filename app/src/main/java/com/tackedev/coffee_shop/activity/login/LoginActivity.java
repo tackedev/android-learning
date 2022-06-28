@@ -1,4 +1,4 @@
-package com.tackedev.coffee_shop.activitity.login;
+package com.tackedev.coffee_shop.activity.login;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.tackedev.coffee_shop.R;
-import com.tackedev.coffee_shop.activitity.product.ProductListActivity;
+import com.tackedev.coffee_shop.activity.product.ProductListActivity;
 import com.tackedev.coffee_shop.dao.UserDao;
 import com.tackedev.coffee_shop.model.User;
 

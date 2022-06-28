@@ -16,7 +16,11 @@ public class DatabaseOpener extends SQLiteOpenHelper {
         String createUserTableQuery = "CREATE TABLE user(email Text primary key not null, password Text)";
         db.execSQL(createUserTableQuery);
         db.execSQL("INSERT INTO user VALUES('kylq@gmail.com', 'Admin@123')");
-        db.execSQL("INSERT INTO user VALUES('ky.le@gmail.com', 'Admin@123')");
+        db.execSQL("INSERT INTO user VALUES('ky.le.00@gmail.com', 'Admin@123')");
+        db.execSQL("INSERT INTO user VALUES('ky.le.01@gmail.com', 'Admin@123')");
+        db.execSQL("INSERT INTO user VALUES('ky.le.02@gmail.com', 'Admin@123')");
+        db.execSQL("INSERT INTO user VALUES('ky.le.03@gmail.com', 'Admin@123')");
+        db.execSQL("INSERT INTO user VALUES('ky.le.04@gmail.com', 'Admin@123')");
     }
 
     @Override

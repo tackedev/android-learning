@@ -1,8 +1,8 @@
-package com.tackedev.coffee_shop.activitity.product;
+package com.tackedev.coffee_shop.activity.product;
 
-import static com.tackedev.coffee_shop.activitity.product.CoffeeDetailActivity.PRODUCT_DESCRIPTION_KEY;
-import static com.tackedev.coffee_shop.activitity.product.CoffeeDetailActivity.PRODUCT_IMAGE_KEY;
-import static com.tackedev.coffee_shop.activitity.product.CoffeeDetailActivity.PRODUCT_NAME_KEY;
+import static com.tackedev.coffee_shop.activity.product.CoffeeDetailActivity.PRODUCT_DESCRIPTION_KEY;
+import static com.tackedev.coffee_shop.activity.product.CoffeeDetailActivity.PRODUCT_IMAGE_KEY;
+import static com.tackedev.coffee_shop.activity.product.CoffeeDetailActivity.PRODUCT_NAME_KEY;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -21,7 +21,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.tackedev.coffee_shop.R;
-import com.tackedev.coffee_shop.activitity.cart.CartActivity;
+import com.tackedev.coffee_shop.activity.cart.CartActivity;
 
 import java.util.List;
 

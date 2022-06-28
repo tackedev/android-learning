@@ -7,7 +7,10 @@
         <entry key="app/src/main/res/layout/activity_coffee_detail.xml" value="0.6113615870153292" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.20896656534954408" />
         <entry key="app/src/main/res/layout/activity_product_list.xml" value="0.20896656534954408" />
+        <entry key="app/src/main/res/layout/activity_user.xml" value="0.20896656534954408" />
+        <entry key="app/src/main/res/layout/activity_users.xml" value="0.33" />
         <entry key="app/src/main/res/layout/coffee_item.xml" value="0.8185595567867036" />
+        <entry key="app/src/main/res/layout/user_item.xml" value="0.33" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.42864583333333334" />
       </map>
     </option>

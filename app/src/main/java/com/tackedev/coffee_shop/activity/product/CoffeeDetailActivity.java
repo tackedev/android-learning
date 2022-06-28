@@ -1,4 +1,4 @@
-package com.tackedev.coffee_shop.activitity.product;
+package com.tackedev.coffee_shop.activity.product;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;

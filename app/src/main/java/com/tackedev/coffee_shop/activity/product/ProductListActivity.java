@@ -1,6 +1,7 @@
-package com.tackedev.coffee_shop.activitity.product;
+package com.tackedev.coffee_shop.activity.product;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,6 +12,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.tackedev.coffee_shop.R;
+import com.tackedev.coffee_shop.activity.user.UsersActivity;
 
 import java.util.List;
 
@@ -58,7 +60,7 @@ public class ProductListActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.option_settings:
-                showSettings();
+                showUser();
                 return true;
             case R.id.option_favorites:
                 showFavorites();
@@ -72,8 +74,9 @@ public class ProductListActivity extends AppCompatActivity {
         Toast.makeText(ProductListActivity.this, "Do nothing", Toast.LENGTH_LONG).show();
     }
 
-    private void showSettings() {
-        Toast.makeText(ProductListActivity.this, "Do nothing", Toast.LENGTH_LONG).show();
+    private void showUser() {
+        Intent intent = new Intent(this, UsersActivity.class);
+        startActivity(intent);
     }
 
 }

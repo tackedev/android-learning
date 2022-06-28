@@ -1,4 +1,4 @@
-package com.tackedev.coffee_shop.activitity.cart;
+package com.tackedev.coffee_shop.activity.cart;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

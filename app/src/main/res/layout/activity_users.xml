@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.product.ProductListActivity">
+    tools:context=".activity.user.UsersActivity">
 
     <LinearLayout
         android:id="@+id/layoutTopBar"
@@ -39,7 +39,7 @@
     </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/layoutProducts"
+        android:id="@+id/layoutUsers"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"

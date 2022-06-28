@@ -16,16 +16,19 @@
         android:theme="@style/Theme.Coffeeshop"
         tools:targetApi="31">
         <activity
-            android:name=".activitity.cart.CartActivity"
+            android:name=".activity.user.UsersActivity"
             android:exported="false" />
         <activity
-            android:name=".activitity.product.CoffeeDetailActivity"
+            android:name=".activity.cart.CartActivity"
             android:exported="false" />
         <activity
-            android:name=".activitity.product.ProductListActivity"
+            android:name=".activity.product.CoffeeDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".activitity.login.LoginActivity"
+            android:name=".activity.product.ProductListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.login.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
